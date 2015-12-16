@@ -1,5 +1,5 @@
 FROM drydock/u12pls:prod
 
-ADD . /tmp
+ADD . /u12golpls
 
-RUN /tmp/install.sh && rm -rf /tmp
+RUN /u12golpls/install.sh
