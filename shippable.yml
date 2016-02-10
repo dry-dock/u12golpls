@@ -1,7 +1,7 @@
-language: go
+language: python
 
-go:
- - 1.5
+python:
+  - 2.7
 
 build:
   pre_ci:
